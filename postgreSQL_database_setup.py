@@ -12,7 +12,7 @@ from pprint import pprint
 import psycopg2
 
 csv_filename = 'boston.csv'
-conn = psycopg2.connect(dbname="postgres", user="postgres", password = '2611')
+conn = psycopg2.connect(dbname="XXXXX", user="XXXXX", password = 'XXXX')
 conn.autocommit = True # set autocommit to 'True' to create db
 cursor = conn.cursor()
 
